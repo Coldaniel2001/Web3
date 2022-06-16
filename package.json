@@ -1,0 +1,33 @@
+{
+  "name": "intento",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web3.js",
+  "scripts": {
+    "dev": "nodemon ./servidor.js",
+    "start": "node ./servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "html-webpack-plugin": "^5.5.0",
+    "web3": "^1.7.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "dev-server": "^0.2.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "nodemon": "2.0.16",
+    "sass-loader": "^13.0.0",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  }
+}
